@@ -1,0 +1,22 @@
+
+--1) Visual Studio 2022 -- https://visualstudio.microsoft.com/vs/community/
+---1.1) Mac için: https://aka.ms/vs/mac/download
+--2) Microsoft SQL Server Developer versiyon --- https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x409&culture=en-us&country=us
+--3) SSMS - SQL server management studio --- https://aka.ms/ssmsfullsetup
+	--3.1) Mac kullanıcıları için Azure Data Studio https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall
+--4) Docker -- https://www.docker.com/products/docker-desktop/
+--5) Redis -- docker run --name my-redis -p 32769:6379 -d redis
+--6) RabbitMq -- docker run -it --rm --name mymq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+	rabbitmq user-pwd: guest, guest
+	rabbitmq adres: http://localhost:15672/#/
+--7) docker run -d -p 27017:27017 --name=mongo-example mongo:latest
+	mongodb://localhost:27017
+	https://www.mongodb.com/try/download/compass
+
+
+
+Microsoft Visual Studio Enterprise 2022 (64-bit) - Current
+Version 17.8.5
+
+Another Redis Desktop Manager
+https://github.com/qishibo/AnotherRedisDesktopManager

@@ -1,0 +1,6 @@
+@Workintech02RabbitmqConsumer_HostAddress = http://localhost:5035
+
+GET {{Workintech02RabbitmqConsumer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
